@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Working Test -> Request Page</title>
+</head>
+<body>
+    <form action="/through_html" method = 'POST'>
+        <label>Choose a Mathematical Operation</label>
+        <select name = "operator">
+            <option value="add">Add</option>
+            <option value="sub">Sub</option>
+            <option value="mul">Multiply</option>
+            <option value="div"> Divide</option>
+        </select>
+
+        <input type="text" name = "number1">
+        <input type="text" name = "number2">
+        <input type="submit" value = "Calculate">
+
+    </form>
+</body>
+</html>
