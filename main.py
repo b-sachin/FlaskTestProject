@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, jsonify
-
+from flask import Flask, request
 
 app = Flask(__name__)
+
 
 @app.route("/sachin")
 def fun1():
